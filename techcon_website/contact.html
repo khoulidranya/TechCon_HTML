@@ -28,15 +28,18 @@
         <h3>location</h3>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26606.651202535395!2d-7.6589264256836165!3d33.531768899999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda62d66042d1985%3A0xaed63d9ca368f7ad!2sAgora%20conference%20center!5e0!3m2!1sfr!2sma!4v1726926265699!5m2!1sfr!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <h3>Contact Us</h3>
-        <form action="">
-            <label for="name">Name</label>
-            <input type="text">
-            <label for="email"> Email </label>
-            <input type="email">
-            <label for="Message">Message</label>
-            <textarea name="Message" id=""></textarea>
+         <h3>Contact Us Form</h3>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
             <button type="submit">Send Message</button>
-            
         </form>
     </main>
     <footer>
